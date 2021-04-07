@@ -1,0 +1,26 @@
+.text-teal{
+    color: teal;
+}
+.carousel-caption{
+    bottom:600px;
+}
+.subscribe-section{
+    background: white url("image/landing-page/card-4.jpg") no-repeat scroll center;
+    background-size: cover;
+}
+.subscribe-overlay{
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+}
+
+@media (max-width: 576px) {
+    .carousel-caption{
+        bottom: 20px;
+    }
+    .carousel-caption p{
+        display: none;
+    }
+    .carousel-caption h5{
+        font-size: 30px;
+    }
+}
